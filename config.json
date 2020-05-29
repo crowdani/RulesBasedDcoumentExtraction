@@ -1,0 +1,24 @@
+{
+  "directory_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/",
+  "output_directory_path": "/Users/crowdani@uk.ibm.com/Documents/docs/output",
+  "odm_output_directory_path": "/Users/crowdani@uk.ibm.com/Documents/docs/outputODM",
+  "main_url": "https://backend.159.8.164.186.nip.io/ca/rest/content/v1",
+  "output_options": "\"json\"",
+  "json_options": "\"ocr\",\"dc\",\"kvp\",\"sn\",\"hr\",\"th\",\"mt\",\"wi\",\"shw\"",
+  "ssl_verification": false,
+  "file_type": [
+    "pdf",
+    "docx",
+    "doc"
+  ],
+  "function_id": "cp4aAdmin",
+  "password": "Sm3gh3ad",
+  "api_key": "MDQ5NTRlZmYtNzUyNS00YWMwLTkwYzctMTM0ZDUyMzlkZDA3O2VkZjtvbnQx",
+  "odm_url": "https://uk-cp4a-deployment-odm-ds-console-route-cp4a-all.mycluster-lon02-b3c8x32-4d2c0e6e364e1cb6bda1360a996d18f0-0000.eu-gb.containers.appdomain.cloud/DecisionService/rest/v1/ContentAnalyzer/1.5/ProcessDocument/OPENAPI?format=JSON",
+  "ums_url": "https://ums-uk.159.8.164.186.nip.io/oidc/endpoint/ums/token?grant_type=password&scope=openid",
+  "rules": "ContentAnalyzer/1.5/ProcessDocument/OPENAPI?format=JSON",
+  "odmUser" : "odmAdmin",
+  "odmPassword": "odmAdmin",
+  "client_id": "pythonApp",
+  "client_secret": "passw0rd"
+}
