@@ -1,13 +1,13 @@
 {
-    "starttime": "2020-05-29 21:39:52.302050",
-    "endtime": "2020-05-29 21:45:08.337305",
+    "starttime": "2020-06-01 09:49:50.663186",
+    "endtime": "2020-06-01 09:51:32.081365",
     "no_of_files": 18,
     "output_results": [
         {
             "filename": "HPC UK6301 U0 ALL DTS 100010_9b76.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100010_9b76.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100010_9b76.pdf\",\"analyzerId\":\"8c3bbb20-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100010_9b76.pdf\",\"analyzerId\":\"dae9ae40-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -19,7 +19,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100023_8969.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100023_8969.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100023_8969.pdf\",\"analyzerId\":\"8e2b7d30-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100023_8969.pdf\",\"analyzerId\":\"dd125aa0-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -31,7 +31,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100020_b7c6.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100020_b7c6.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100020_b7c6.pdf\",\"analyzerId\":\"946237c0-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100020_b7c6.pdf\",\"analyzerId\":\"e0cd8de0-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -43,7 +43,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100019_7e80.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100019_7e80.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100019_7e80.pdf\",\"analyzerId\":\"993e6b60-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100019_7e80.pdf\",\"analyzerId\":\"e30666e0-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -55,7 +55,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100017_417f.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100017_417f.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100017_417f.pdf\",\"analyzerId\":\"9c66d480-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100017_417f.pdf\",\"analyzerId\":\"e4caac20-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -67,7 +67,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100021_e7c9.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100021_e7c9.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100021_e7c9.pdf\",\"analyzerId\":\"9f33d730-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100021_e7c9.pdf\",\"analyzerId\":\"e6a0a4a0-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -79,7 +79,7 @@
             "filename": "HPC UK6301 AU RCV DTS 100000_a443.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-AU-RCV-DTS-100000_a443.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 AU RCV DTS 100000_a443.pdf\",\"analyzerId\":\"a38d4640-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 AU RCV DTS 100000_a443.pdf\",\"analyzerId\":\"e8828400-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -91,7 +91,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100013_b7b6.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100013_b7b6.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100013_b7b6.pdf\",\"analyzerId\":\"aa694180-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100013_b7b6.pdf\",\"analyzerId\":\"ecffcec0-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -103,7 +103,7 @@
             "filename": "HPC UK6301 AU REA DTS 100000_c698.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-AU-REA-DTS-100000_c698.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 AU REA DTS 100000_c698.pdf\",\"analyzerId\":\"acd31590-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 AU REA DTS 100000_c698.pdf\",\"analyzerId\":\"ef359a80-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -115,7 +115,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100014_7e91.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100014_7e91.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100014_7e91.pdf\",\"analyzerId\":\"b2293420-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100014_7e91.pdf\",\"analyzerId\":\"f19ed250-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -127,7 +127,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100022_c3ee.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100022_c3ee.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100022_c3ee.pdf\",\"analyzerId\":\"b4c5d800-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100022_c3ee.pdf\",\"analyzerId\":\"f38daa00-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -139,7 +139,7 @@
             "filename": "HPC UK6301 AU RCV DTS 100001_a446.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-AU-RCV-DTS-100001_a446.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 AU RCV DTS 100001_a446.pdf\",\"analyzerId\":\"b7550e60-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 AU RCV DTS 100001_a446.pdf\",\"analyzerId\":\"f65db9f0-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -151,7 +151,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100008_c3a0.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100008_c3a0.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100008_c3a0.pdf\",\"analyzerId\":\"bc6b3dc0-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100008_c3a0.pdf\",\"analyzerId\":\"fb0cc310-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -163,7 +163,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100016_1c55.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100016_1c55.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100016_1c55.pdf\",\"analyzerId\":\"bea3efb0-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100016_1c55.pdf\",\"analyzerId\":\"fd401dd0-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -175,7 +175,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100012_9b7f.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100012_9b7f.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100012_9b7f.pdf\",\"analyzerId\":\"c1d5ceb0-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100012_9b7f.pdf\",\"analyzerId\":\"ff74b110-a3e4-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -187,7 +187,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100011_7b2e.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100011_7b2e.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100011_7b2e.pdf\",\"analyzerId\":\"c3aab5c0-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100011_7b2e.pdf\",\"analyzerId\":\"0184cc60-a3e5-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -199,7 +199,7 @@
             "filename": "HPC UK6301 U0 ALL DTS 100018_923d.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-U0-ALL-DTS-100018_923d.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100018_923d.pdf\",\"analyzerId\":\"c9622e30-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 U0 ALL DTS 100018_923d.pdf\",\"analyzerId\":\"03929dc0-a3e5-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -211,7 +211,7 @@
             "filename": "HPC UK6301 AU ASG DTS 100000_c46e.pdf",
             "path": "",
             "full_path": "/Users/crowdani@uk.ibm.com/Documents/docs/input/HPC-UK6301-AU-ASG-DTS-100000_c46e.pdf",
-            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 AU ASG DTS 100000_c46e.pdf\",\"analyzerId\":\"cf903630-a1ec-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
+            "response": "{\"status\":{\"code\":202,\"messageId\":\"CIWCA11106\",\"message\":\"Content Analyzer request was created\",\"warning\":\"WI, SHW will be deprecated later, so please use the new acronyms: AI, DS\"},\"data\":{\"message\":\"json processing request was created successful\",\"fileNameIn\":\"HPC UK6301 AU ASG DTS 100000_c46e.pdf\",\"analyzerId\":\"07408a90-a3e5-11ea-bb2c-d3c02854742c\",\"type\":[\"json\"]}}",
             "output_type": [
                 "\"json\""
             ],
@@ -221,10 +221,10 @@
         }
     ],
     "no_output_results": 18,
-    "total_upload_seconds": 121.40839,
+    "total_upload_seconds": 78.347795,
     "upload_errors": [],
     "no_of_upload_errors": 0,
-    "total_seconds": "316.035255",
+    "total_seconds": "101.418179",
     "unfinished_files": [
         {
             "filename": "HPC UK6301 U0 ALL DTS 100010_9b76.pdf",

@@ -29,7 +29,7 @@ from urllib import parse as urlparse
 '''
     Function to delete all output files of one processed file with an analyzer ID through the Content Analyzer API
 '''
-def deleteFile(configuration_settings, analyzerId,bearToken):
+def deleteFile(configuration_settings, analyzerId,bearerToken):
     # Make requests
     headers = {
         'apiKey': configuration_settings['api_key']
@@ -64,7 +64,7 @@ def deleteFile(configuration_settings, analyzerId,bearToken):
 '''
     Function to loop through each processed file and call the deleteFile function
 '''
-def deleteFiles():
+def deleteFiles(bearerToken):
     configuration, configuration_settings = readJSON()
     if (configuration):
         output_json_path = os.path.join(os.getcwd(), "output.json")
@@ -81,7 +81,7 @@ def deleteFiles():
                             if ("deleted" in result and result["deleted"] == False) or "deleted" not in result:
                                 response = json.loads(result["response"])
                                 analyzerId = response["data"]["analyzerId"]
-                                status, result_response = deleteFile(configuration_settings, analyzerId)
+                                status, result_response = deleteFile(configuration_settings, analyzerId,bearerToken)
                                 if (status):
                                     result["deleted"] = True
                                 else:

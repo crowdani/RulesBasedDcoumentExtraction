@@ -38,11 +38,10 @@ def checkStatus(configuration_settings, analyzerId,bearerToken):
     logger.info("Config check" +  configuration_settings['api_key'])
     if "function_id" in configuration_settings:
             credentials = ('%s:%s' % (
-                configuration_settings["function_id"], configuration_settings["password"]))
+            configuration_settings["function_id"], configuration_settings["password"]))
             encoded_credentials = b64encode(credentials.encode('ascii'))
             #headers['Authorization'] = 'Basic %s' % encoded_credentials.decode("utf-8")
             #headers['Authorization'] = configuration_settings["bear_token"]
-            logger.info("Config check" +  headers['Authorization'])
             headers['Authorization'] = bearerToken
 
     get_url = urlparse.urljoin(configuration_settings['main_url'], "{0}/".format(analyzerId))
