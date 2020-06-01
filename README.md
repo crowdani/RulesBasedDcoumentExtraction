@@ -25,6 +25,8 @@ Install the latest **python3**, **pip** and these packages:
     python -m pip install requests
     python -m pip install python-dateutil
     python -m pip install logging
+    python -m pip install requests_oauthlib
+    python -m pip install oauthlib
 
 ### Prerequisites
 1.	You must have access to a Content Analyzer cloud deployment.
