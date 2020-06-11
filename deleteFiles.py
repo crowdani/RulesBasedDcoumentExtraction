@@ -39,7 +39,7 @@ def deleteFile(configuration_settings, analyzerId,bearerToken):
             credentials = ('%s:%s' % (
                 configuration_settings["function_id"], configuration_settings["password"]))
             encoded_credentials = b64encode(credentials.encode('ascii'))
-            headers['Authorization'] = 'Basic %s' % encoded_credentials.decode("utf-8")
+            #headers['Authorization'] = 'Basic %s' % encoded_credentials.decode("utf-8")
             headers['Authorization'] = bearerToken
 
     get_url = urlparse.urljoin(configuration_settings['main_url'],  "{0}/".format(analyzerId))

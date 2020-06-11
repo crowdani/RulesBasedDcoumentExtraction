@@ -178,9 +178,9 @@ def downloadFiles(bearerToken):
                                         else:
                                             logger.info("Checking status of analyzerId: " + analyzerId)
                                             status, result_response = checkStatus(configuration_settings, analyzerId,bearerToken)
-                                            logger.info("Got Status")
+
                                             if (status):
-                                                logger.info("Got Status 2")
+                                                
                                                 if ("data" in result_response and "statusDetails" in result_response[
                                                     "data"]):
                                                     status_result_response = result_response["data"]["statusDetails"]

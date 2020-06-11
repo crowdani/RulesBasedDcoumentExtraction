@@ -11,6 +11,6 @@ starttime = dt.datetime.now()
 
 
 
-uploadSuccess = oauth()
-bearerToken = "Bearer " + uploadSuccess
-print(bearerToken)
+uploadSuccess = executeRules()
+#bearerToken = "Bearer " + uploadSuccess
+print(uploadSuccess)

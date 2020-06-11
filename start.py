@@ -25,6 +25,7 @@ from deleteFiles import deleteFiles
 from updateReport import updateReport
 from executeRules import executeRules
 from oauth import oauth
+from basicAuth import basicAuth
 
 starttime = dt.datetime.now()
 
@@ -32,6 +33,10 @@ if __name__ == '__main__':
     logger.info("**************************************")
     logger.info("Content Analyzer API Sample tool starting...")
     logger.info("Logs can be found in the current directory, processing.log")
+
+
+
+    #bearerToken = basicAuth()
     uploadSuccess = oauth()
     bearerToken = "Bearer " + uploadSuccess
 
@@ -44,7 +49,7 @@ if __name__ == '__main__':
 
         if(complete):
             logger.info("Deleting files on the server")
-            deleteFiles()
+            deleteFiles(bearerToken)
             uploadSuccess = executeRules()
             if(uploadSuccess):
                 logger.info("All done")

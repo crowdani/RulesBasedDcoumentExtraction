@@ -39,69 +39,74 @@ def executeRules():
         count = 0
         errors = []
         output_results = []
-        for subdir, dirs, files in os.walk(dir_path + "/json"):
+        for subdir, dirs, files in os.walk(dir_path):
             for file in files:
                 file_path = os.path.join(subdir, file)
                 new_file = copy.copy(file)
-
+                #print(file)
                 file_split = new_file.rsplit(".")
-                odm_file_value = str(file_split[0]) + "ODM.json"
-                file_extension = str(file_split[-1].strip())
+                if (file_split[1]=="json"):
+                    odm_file_value = str(file_split[0]) + "ODM.json"
+                    file_extension = str(file_split[-1].strip())
 
-                old_file_name = new_file.replace("." + file_extension, '').strip()
-                file_name = re.sub('[^A-Za-z0-9 _]+', ' ', old_file_name).strip() + "." + str(file_extension)
-                new_file_path = os.path.join(subdir, file_name)
-                print(new_file_path)
-                f = open(new_file_path, "r")
-                # deserializes into dict
-                # and returns dict.
-                y = json.loads(f.read())
-                #json.append()
-                odmData = {
-                    '__DecisionID__': "myworld",
-                    "document_in": y,
-                    "metaData_inout": {
-                        "dynamicParams": "string"
-                      }
-                }
+                    old_file_name = new_file.replace("." + file_extension, '').strip()
+                    file_name = re.sub('[^A-Za-z0-9 _]+', ' ', old_file_name).strip() + "." + str(file_extension)
+                    new_file_path = os.path.join(subdir, file_name)
+                    #print(new_file_path)
+                    f = open(new_file_path, "r")
+                    # deserializes into dict
+                    # and returns dict.
+                    y = json.loads(f.read())
+                    #json.append()
+                    odmData = {
+                        '__DecisionID__': "myworld",
+                        "document_in": y,
+                        "metaData_inout": {
+                            "dynamicParams": "string"
+                          }
+                    }
 
-                #var rex = new RegExp('Sensitivity":false', 'g');
-
-
-               #var BACA_STRING_RESPONSE = JSON.stringify(res.data)
-               #BACA_STRING_RESPONSE = BACA_STRING_RESPONSE.replace(rex, 'Sensitivity":0');
+                    #var rex = new RegExp('Sensitivity":false', 'g');
 
 
-                odmJson = json.dumps(odmData)
-                #print (odmJson)
-                odmJson = odmJson.replace('"Sensitivity": false', '"Sensitivity":0')
-                #odmpayload = {"__DecisionID__": "string","document_in": y, "metaData_inout": {"dynamicParams": "" }}
-                authPayload= HTTPBasicAuth(configuration_settings["odmUser"], configuration_settings["odmPassword"])
-
-                ODM_ProcessBacaDocument_ServiceURL = configuration_settings["odm_url"]
-                #JsonPayload = odmpayload
-                headers = {'content-type' : 'application/json'}
-                #print(odmData)
-                try:
-                    response = requests.request("POST", ODM_ProcessBacaDocument_ServiceURL,headers=headers, data=odmJson, auth=authPayload, verify=False)
-                    print(response.text)
-                    jsonPayloadODM = json.loads(response.text)
-                    fileOutPutPath =   configuration_settings["odm_output_directory_path"]+ "/" + odm_file_value
-                    with open(fileOutPutPath, 'w') as outfile:
-                        json.dump(jsonPayloadODM, outfile)
-                    #return response
-                except SSLError as sslerror:
-                    logger.error("SSL error was thrown due to certificate failure, set ssl_verification to false in configuration config.json file.")
-                    #dict_object.update({"error": str(sslerror)})
-                    #errors.append(dict_object)
-                    return False
-                except Exception as ex:
-                    #dict_object.update({"error": str(ex)})
-                    #errors.append(dict_object)
-                    #logger.error("An error occurred when trying to upload file " + file_path)
-                    logger.debug(ex, exc_info=True)
-                    pass
+                   #var BACA_STRING_RESPONSE = JSON.stringify(res.data)
+                   #BACA_STRING_RESPONSE = BACA_STRING_RESPONSE.replace(rex, 'Sensitivity":0');
 
 
-                f.close()
+                    odmJson = json.dumps(odmData)
+                    #print (odmJson)
+                    odmJson = odmJson.replace('"Sensitivity": false', '"Sensitivity":0')
+
+                    odmJson = odmJson.replace('Language": ""', 'Language":[]')
+
+
+                    #odmpayload = {"__DecisionID__": "string","document_in": y, "metaData_inout": {"dynamicParams": "" }}
+                    authPayload= HTTPBasicAuth(configuration_settings["odmUser"], configuration_settings["odmPassword"])
+
+                    ODM_ProcessBacaDocument_ServiceURL = configuration_settings["odm_url"]
+                    #JsonPayload = odmpayload
+                    headers = {'content-type' : 'application/json'}
+                    #print(odmData)
+                    try:
+                        response = requests.request("POST", ODM_ProcessBacaDocument_ServiceURL,headers=headers, data=odmJson, auth=authPayload, verify=False)
+                        print(response.text)
+                        jsonPayloadODM = json.loads(response.text)
+                        fileOutPutPath =   configuration_settings["odm_output_directory_path"]+ "/" + odm_file_value
+                        with open(fileOutPutPath, 'w') as outfile:
+                            json.dump(jsonPayloadODM, outfile)
+                        #return response
+                    except SSLError as sslerror:
+                        logger.error("SSL error was thrown due to certificate failure, set ssl_verification to false in configuration config.json file.")
+                        #dict_object.update({"error": str(sslerror)})
+                        #errors.append(dict_object)
+                        return False
+                    except Exception as ex:
+                        #dict_object.update({"error": str(ex)})
+                        #errors.append(dict_object)
+                        #logger.error("An error occurred when trying to upload file " + file_path)
+                        logger.debug(ex, exc_info=True)
+                        pass
+
+
+                    f.close()
         return True
